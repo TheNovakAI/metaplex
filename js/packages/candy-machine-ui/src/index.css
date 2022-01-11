@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-image: url(https://solsand.io/wp-content/uploads/2021/11/test-land.png);
+  background-size: 800px 800px;
+  background-position: center;
+}
+
+#root{
+  display: grid;
+  text-align: center;
+  place-content: center;
+  min-height: 100vh;
+}
