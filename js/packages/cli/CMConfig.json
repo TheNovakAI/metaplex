@@ -5,7 +5,7 @@
   "solTreasuryAccount": "H4DcQikv2n7gvXZqRmeQ2ZdPCmAVieffd2bhJLVFKMq5",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "16 Jan 2022 19:00:00 EST",
+  "goLiveDate": "17 Jan 2022 00:00:00 GMT",
   "endSettings": 
   {
     "endSettingType": { "amount": true },
@@ -13,7 +13,7 @@
     },
   "whitelistMintSettings": {
     "mode": { "burnEveryTime": true },
-    "mint": "FXHXpwQJdY9JFSKW9BbG34tD1usRry7DtENkMLkXXXXX",
+    "mint": "XE3nFeD6fJKNy2Nmq9H9LzDjezv1654dZJY7G6phXYh",
     "presale": true,
     "discountPrice": 1
     },
