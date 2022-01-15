@@ -15,8 +15,9 @@ code {
 
 body{
   background-image: url(https://solsand.io/wp-content/uploads/2022/01/BackgroundSite.jpeg);
-  background-size: 800px 800px;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #root{
