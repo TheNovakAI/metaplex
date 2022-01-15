@@ -12,6 +12,7 @@ type HeaderProps = {
 
 export const Header = ({ candyMachine }: HeaderProps) => {
   return (
+   <b>Solsand</b>
     <Grid container direction="row" justifyContent="center" wrap="nowrap">
       <Grid container direction="row" wrap="nowrap">
         {candyMachine && (
