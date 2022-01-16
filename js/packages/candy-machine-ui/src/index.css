@@ -27,3 +27,15 @@ body{
   place-content: center;
   min-height: 100vh;
 }
+
+.logo {
+  height:300px;
+  width:500px;
+}
+
+@media all and (max-width: 550px) {
+  .logo {
+    height: 180px;
+    width:300px;
+  }
+}
