@@ -163,7 +163,7 @@ const Home = (props: HomeProps) => {
 
   return (
     <Container style={{ marginTop: 0 }}>
-    <img src="SSMint.png" alt="SolSand" height="300" width="500"/>
+    <img src="SSMint.png" alt="SolSand" height="300" width="79%"/>
     <br></br>
     <br></br>
     <br></br>
