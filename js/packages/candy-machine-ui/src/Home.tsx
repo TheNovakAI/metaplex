@@ -162,7 +162,12 @@ const Home = (props: HomeProps) => {
   ]);
 
   return (
-    <Container style={{ marginTop: 100 }}>
+    <Container style={{ marginTop: 0 }}>
+    <img src="SSMint.png" alt="SolSand" height="300" width="500"/>
+    <br></br>
+    <br></br>
+    <br></br>
+
       <Container maxWidth="xs" style={{ position: 'relative' }}>
         <Paper
           style={{ padding: 24, backgroundColor: '#151A1F', borderRadius: 6 }}
