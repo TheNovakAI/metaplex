@@ -41,7 +41,7 @@ export const MintButton = ({
     } else if (isMinting) {
       return <CircularProgress />;
     } else if (candyMachine?.state.isPresale) {
-      return 'PRESALE MINT';
+      return 'PRESALE MINT (OPENS 5:20PM EST)';
     }
 
     return 'MINT';
