@@ -3,6 +3,7 @@ import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
 import Home from './Home';
 
+import { CrossMintProvider } from "@crossmint/client-sdk-react-ui";
 import { clusterApiUrl } from '@solana/web3.js';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import {
@@ -20,6 +21,9 @@ import {
 import { WalletDialogProvider } from '@solana/wallet-adapter-material-ui';
 
 import { ThemeProvider, createTheme } from '@material-ui/core';
+
+//require("../styles/globals.css");
+require("@crossmint/client-sdk-react-ui/styles.css");
 
 const theme = createTheme({
   palette: {
@@ -69,13 +73,14 @@ const App = () => {
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
           <WalletDialogProvider>
+          <CrossMintProvider clientId="87508ff1-59ba-4b6c-812b-1a31aef59db9">
             <Home
               candyMachineId={candyMachineId}
               connection={connection}
               startDate={startDateSeed}
               txTimeout={txTimeoutInMilliseconds}
               rpcHost={rpcHost}
-            />
+            /></CrossMintProvider>
           </WalletDialogProvider>
         </WalletProvider>
       </ConnectionProvider>

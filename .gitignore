@@ -37,3 +37,6 @@ js/packages/candy-machine-ui/.env
 traits
 traits-configuration.json
 js/packages/cli/CMConfig.json
+js/packages/candy-machine-ui/mainnetproduction.env.txt
+js/packages/cli/PROD.CMConfig.json
+js/packages/cli/CMConfig.json
